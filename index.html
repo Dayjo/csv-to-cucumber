@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Convert a CSV to Cucumber style Data Table</title>
+  <style>
+  	textarea { width: 100%; min-height: 200px}
+  </style>
+</head>
+<body>
+
+<textarea id="input">
+column_one, column_two, column_three, column_four
+value 1, value 2, value 3, value 4
+value a, value b, value c, value d
+</textarea>
+  
+  <button id="tocucumber">Convert CSV to Cucumber &gt;</button>
+  
+  <textarea id="output"></textarea>
+  <script src="csv-to-cucumber.js"></script>
+</body>
+</html>
